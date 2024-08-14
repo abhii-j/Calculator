@@ -1,0 +1,113 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"); */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family:"Aeonik Trial; */
+}
+
+
+/* w-full,h-screen */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.993);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.caluletar{
+    /* background-color: yellow; */
+    background-color: black;
+    height: 87%;
+    width: 26%;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 255, 255, 0.178);
+}
+
+.cal{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+}
+
+
+input{
+    height: 70px;
+    width: 70px;
+    font-size: 25px;
+    font-weight: 200;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.082);
+    /* box-shadow: -8px -8px 15px  rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0,0, 0.2); */
+    
+    background: transparent;
+    color: white;
+    /* border: none; */
+    cursor: pointer;
+    outline: 0;
+}
+
+
+.display input{
+    height:15vh;
+    width: 86.8%;
+    margin: 20px 22px 10px 19px; 
+    text-align: right;
+    box-shadow: none;
+    font-size: 35px;
+    padding-right: 15px;
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.11);
+
+    /* border-bottom: 1px solid rgba(245, 245, 245, 0.13); */
+    /* color: white; */
+}
+
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:4px 4px 4px 4px;
+    gap: 9px;
+}
+
+.line5{
+    justify-content: start;
+    margin-left: 25px;
+    gap: 9px;
+}
+
+.asg{
+    width: 148.5px;
+}
+
+.opretor{
+    color: rgb(255, 255, 255);
+    background-color: rgba(214, 79, 0, 0.479);
+    
+}
+
+.opretor:hover{
+    background-color: rgba(255, 255, 255, 0.308);
+}
+
+input:hover{
+    background-color: rgba(255, 255, 255, 0.11);
+
+}
